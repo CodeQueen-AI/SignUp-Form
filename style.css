@@ -1,49 +1,77 @@
-body{
-  background-color: #427aa1;
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 .sign-up-form {
-     width: 300px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-    background: #fff;
-    padding: 20px;
-    margin: 8% auto 0;
+    width: 350px;
+    background: linear-gradient(135deg, #000428, #004e92);
+    padding: 25px;
     text-align: center;
+    border-radius: 10px;
+    border: 3px solid #00f;
+    box-shadow: 0 0 15px #00f;
+}
+.sign-up-form h1 {
+    color: #00f;
+    margin-bottom: 20px;
 }
 .input-box {
-    border-radius: 20px;
-    padding: 10px;
+    width: 90%;
+    padding: 12px;
     margin: 10px 0;
-    width: 100%;
-    border: 1px solid #999;
+    border: 2px solid #00f;
+    border-radius: 5px;
     outline: none;
+    text-align: center;
+    background: white;
+    color: black;
 }
 button {
     color: #fff;
-    width: 100%;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 15px;
-    margin: 10px;
+    width: 95%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
     border: none;
-    outline: none;
     cursor: pointer;
+    transition: 0.3s;
 }
 .signup-btn {
-    background-color: #1c8adb;
+    background-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
 }
-.twitter-btn{
-    background-color: #389ae0;
+.signup-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px #007bff;
 }
-hr{
-    margin-top: 20px;
-    width: 80%;
+.twitter-btn {
+    background-color: #1da1f2;
+    box-shadow: 0 0 5px #1da1f2;
 }
-.or{
-    width: 40px;
-    margin: -19px auto 10px;
-    background-color: #fff;
+.twitter-btn:hover {
+    background-color: #0d8ddb;
+    box-shadow: 0 0 10px #1da1f2;
 }
-img {
-    width: 70px;
-    margin-top: -50px;
+.or {
+    color: white;
+    font-weight: bold;
+    margin: 10px 0;
 }
+p, a {
+    color: white;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #00f;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+     
